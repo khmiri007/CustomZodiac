@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Custom Zodiac</string>
+    <string name="transition_image">transition</string>
+    <string name="transition" />
+    <string name="transition1" />
+    <string name="leo">leo</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ziedkhmiri.custom.cardview.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_margin="12dp"
+    app:BackgroundColor="#a6ffffff"
+    app:CornerRadius="12dp"
+    app:BottomEdges="false" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <com.ziedkhmiri.custom.CircleImage
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imageView"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            app:border_width="1dp"
+            app:border_color="#FF000000"
+            android:background="@drawable/circle"
+             />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_alignTop="@id/imageView"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_toEndOf="@id/imageView"
+            android:layout_toRightOf="@id/imageView"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:id="@+id/ratingTextView"
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@id/imageView"
+            android:layout_alignLeft="@id/title"
+            android:layout_alignStart="@id/title"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="4dp"
+            android:textSize="15sp"
+            android:textColor="#fff"/>
+
+
+
+
+    </RelativeLayout>
+
+</com.ziedkhmiri.custom.cardview.CardView>
